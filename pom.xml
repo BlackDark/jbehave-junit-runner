@@ -7,18 +7,14 @@
 		<version>7</version>
 	</parent>
 
-	<groupId>de.codecentric</groupId>
+	<groupId>com.github.blackdark</groupId>
 	<artifactId>jbehave-junit-runner</artifactId>
 	<version>1.2.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>JBehave JUnit Runner</name>
 	<description />
-	<url>https://github.com/codecentric/jbehave-junit-runner</url>
-	<organization>
-		<name>codecentric AG</name>
-		<url>http://www.codecentric.de</url>
-	</organization>
+	<url>https://github.com/blackdark/jbehave-junit-runner</url>
 	<licenses>
 		<license>
 			<name>MIT License</name>
@@ -28,27 +24,15 @@
 	</licenses>
 	<developers>
 		<developer>
-			<name>Andreas Ebbert-Karroum</name>
-			<email>andreas.ebbert-karroum@codecentric.de</email>
-			<organization>codecentric AG</organization>
-		</developer>
-		<developer>
-			<name>Daniel Schneller</name>
-			<email>daniel.schneller@codecentric.de</email>
-			<organization>codecentric AG</organization>
+			<name>Eduard Marbach</name>
+			<email>mail@eduard-marbach.de</email>
 		</developer>
 	</developers>
-	<contributors>
-		<contributor>
-			<name>Stephen Kurlow</name>
-			<email>skurlow@gmail.com</email>
-		</contributor>
-	</contributors>
 
 	<scm>
-		<connection>scm:git:git://github.com/codecentric/jbehave-junit-runner.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/codecentric/jbehave-junit-runner.git</developerConnection>
-		<url>https://github.com/codecentric/jbehave-junit-runner</url>
+		<connection>scm:git:git://github.com/blackdark/jbehave-junit-runner.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/blackdark/jbehave-junit-runner.git</developerConnection>
+		<url>https://github.com/blackdark/jbehave-junit-runner</url>
 		<tag>jbehave-junit-runner-1.2.0</tag>
 	</scm>
 
