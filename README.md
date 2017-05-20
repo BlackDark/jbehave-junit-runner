@@ -1,8 +1,6 @@
 JBehave JUnit Integration
 =========================
-[![Build Status](https://travis-ci.org/codecentric/jbehave-junit-runner.png?branch=master)](https://travis-ci.org/codecentric/jbehave-junit-runner)
-[![Coverage Status](https://coveralls.io/repos/codecentric/jbehave-junit-runner/badge.svg)](https://coveralls.io/r/codecentric/jbehave-junit-runner)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.codecentric/jbehave-junit-runner/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.codecentric/jbehave-junit-runner/)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.blackdark/jbehave-junit-runner/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.blackdark/jbehave-junit-runner/)
 
 
 This little project is designed to make JBehave
@@ -24,9 +22,9 @@ a Maven dependency. Binary, Sources and Javadocs are
 all available from Maven Central.
 
     <dependency>
-        <groupId>de.codecentric</groupId>
+        <groupId>com.github.blackdark</groupId>
         <artifactId>jbehave-junit-runner</artifactId>
-        <version>1.2.0</version>
+        <version>1.2.2.1</version>
     </dependency>
 
 Note that the JBehave library is set to scope `provided`
@@ -34,7 +32,7 @@ in the POM, because any project using this Runner will
 naturally have their own version of JBehave already.
 
 Current development SNAPSHOT versions are available from
-[Sonatype's Nexus for Open Source projects](https://oss.sonatype.org/content/repositories/snapshots/de/codecentric/jbehave-junit-runner/).
+[Sonatype's Nexus for Open Source projects](https://oss.sonatype.org/content/repositories/snapshots/com/github/blackdark/jbehave-junit-runner/).
 
 Without Maven
 ---------------------
@@ -134,7 +132,7 @@ Example output
 =================================
 Once you are all set, you use the regular `Run As -> JUnit Test`
 command in Eclipse. The JUnit view should appear and display something
-like this:
+like this:s
 
 ![Screenshot](https://raw.githubusercontent.com/codecentric/jbehave-junit-runner/master/doc/img/JBehaveJUnitScreenshot.png)
 
